@@ -4,7 +4,7 @@ A Todo app with Django ,so esay and cool :)
 
 ## Documentation
 
-1. Install docs requirements: pip install -r requirements.txt
+1. Install docs requirements: `pip install -r requirements.txt`
 2. make virtualenv
 3. cd A
 4. in Terminal: `python manage.py runserver`
