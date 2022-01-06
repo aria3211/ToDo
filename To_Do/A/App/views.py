@@ -23,7 +23,7 @@ def Delete(request,id=None):
 def Complete(request,id=None):
     data = ToDo.objects.get(id=id)
     data.complete = True
-    data.save
+    data.save()
     return redirect('home')
 
 def InComplete(request, id=None):
